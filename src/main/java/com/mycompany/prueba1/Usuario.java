@@ -9,5 +9,7 @@ package com.mycompany.prueba1;
  * @author Santo Tomas
  */
 public class Usuario {
-    
+    private String nombre;
+    private String apellido;
+    private byte edad;
 }
