@@ -15,5 +15,20 @@ public class Usuario {
     
     private boolean esBecado;
     private String nacionalidad;
+
+    public Usuario(String nombre, String apellido, byte edad, boolean esBecado, String nacionalidad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.esBecado = esBecado;
+        this.nacionalidad = nacionalidad;
+    }
     
+    public void saludar(){
+        System.out.println("Mi nombre es " + nombre + "y soy usuario");
+    }
+    
+    public String saludar2(){
+        System.out.println("Mi nombre es " + nombre + "y soy usuario");
+    }
 }
