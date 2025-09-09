@@ -19,6 +19,16 @@ public class Alumno extends Usuario{
         this.nota2 = nota2;
         this.nota3 = nota3;
     }
+
+    @Override
+    public String saludar2() {
+        return "mi nombre es " + getNombre() + "y soy alumno y tengo la nota 1" + nota1;
+    }
+
+    @Override
+    public void saludar() {
+        super.saludar(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
     
 
 
