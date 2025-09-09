@@ -12,4 +12,8 @@ public class Usuario {
     private String nombre;
     private String apellido;
     private byte edad;
+    
+    private boolean esBecado;
+    private String nacionalidad;
+    
 }
